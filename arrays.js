@@ -8,4 +8,6 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   return array.unshift(element)
 }
 
-console.log(addElementToBeginningOfArray(chocolateBars, "m&ms"))
+addElementToBeginningOfArray(chocolateBars, "m&ms")
+destructivelyAddElementToBeginningOfArray(chocolateBars, "twix")
+console.log(chocolateBars)
