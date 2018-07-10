@@ -15,9 +15,3 @@ function addElementToEndOfArray(array, element) {
 function destructivelyAddElementToEndOfArray(array, element) {
   return array.push(element)
 }
-
-addElementToBeginningOfArray(chocolateBars, "m&ms")
-console.log(chocolateBars)
-console.log(addElementToBeginningOfArray(chocolateBars, "dix"))
-destructivelyAddElementToBeginningOfArray(chocolateBars, "twix")
-console.log(chocolateBars)
