@@ -18,5 +18,6 @@ function destructivelyAddElementToEndOfArray(array, element) {
 
 addElementToBeginningOfArray(chocolateBars, "m&ms")
 console.log(chocolateBars)
+console.log(addElementToBeginningOfArray())
 destructivelyAddElementToBeginningOfArray(chocolateBars, "twix")
 console.log(chocolateBars)
