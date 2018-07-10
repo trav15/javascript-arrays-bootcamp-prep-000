@@ -9,5 +9,6 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 }
 
 addElementToBeginningOfArray(chocolateBars, "m&ms")
+console.log(chocolateBars)
 destructivelyAddElementToBeginningOfArray(chocolateBars, "twix")
 console.log(chocolateBars)
